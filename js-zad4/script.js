@@ -8,6 +8,8 @@ function policz(arr) {
     }
 
     console.log('Suma kwadratów elementów tablicy to: ' + sumaIloczynow);
+    return sumaIloczynow;
 }
 
 policz(arr);
+console.log(policz(arr));

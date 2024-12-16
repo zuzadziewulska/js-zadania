@@ -15,6 +15,7 @@ function fibbonaci(n) {
         }
     }
     console.log("Wartość elementu: " + suma);
+    return suma;
 }
 
 
@@ -29,3 +30,4 @@ fibbonaci(8);
 fibbonaci(9);
 fibbonaci(10);
 fibbonaci(23);
+console.log(fibbonaci(5));
